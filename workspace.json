@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "core": "libs/core",
+    "core-angular": "libs/core-angular",
+    "myapp": "apps/myapp",
+    "myapp-e2e": "apps/myapp-e2e"
+  }
 }

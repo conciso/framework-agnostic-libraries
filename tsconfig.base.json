@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@agnostic-library/core": ["dist/libs/core"],
+      "@agnostic-library/core-angular": ["libs/core-angular/src/index.ts"],
+      "@agnostic-library/core/loader": ["dist/libs/core/loader"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
